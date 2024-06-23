@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.devteria</groupId>
-	<artifactId>profile-service</artifactId>
+	<artifactId>notification-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>profile-service</name>
-	<description>Profile service</description>
+	<name>notification-service</name>
+	<description>Notification service</description>
 	<properties>
 		<java.version>21</java.version>
 		<projectlombok-lombok.version>1.18.30</projectlombok-lombok.version>
@@ -35,7 +35,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-neo4j</artifactId>
+			<artifactId>spring-boot-starter-data-mongodb</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
